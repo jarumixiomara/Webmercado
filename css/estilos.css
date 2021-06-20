@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	border: 0;
+}
+img:hover {border-radius: 20px;}
+nav a:hover {border-color: white;}
+aside a:hover {color:blue; background-color: green;}
+body {
+	background-color: green
+}
+#contenedor {
+	width: 95%;
+	margin: 30px auto;
+}
+
+/*  header  */
+header {
+	background-color: red;
+}
+header h1 {
+	padding: 20px;
+	text-align: center;
+	color:white;
+}
+header img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+/*  nav  */
+nav {
+	background-color:red;
+}
+nav a {
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+}
+
+/*  main  */
+main {
+	display: flex;
+}
+
+/*  aside */
+aside {
+	width: 25%;
+	padding: 20px;
+	background-color:wheat;
+}
+
+/*  aside izquierda  */
+aside h3 {
+	padding: 20px 0px;
+}
+aside a {
+	padding: 5px 0px;
+	display: block;
+	color: black;
+}
+
+/*  aside derecha  */
+aside img {
+	width: 70%;
+	margin: 20px auto;
+	display: block;
+}
+
+/*  section  */
+section {
+	width: 50%;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: white;
+}
+section figure {
+	width: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid green;
+}
+section figure img {
+	width: 80%;
+	margin: 10px auto;
+	display: block;
+}
+section figure figcaption {
+	margin: 10px;
+	text-align: center;
+}
+
+/*  footer  */
+footer {
+	padding: 10px;
+	text-align: center;
+	background-color:black;
+}
+footer p {
+	margin-bottom: 10px;
+	color: white;
+}
